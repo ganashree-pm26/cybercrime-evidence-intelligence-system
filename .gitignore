@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# Node/Frontend
+node_modules/
+frontend/node_modules/
+/dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.vite
+
+# IDEs/System
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Database / Credentials / Environments
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+backend/Graph_engine/Graph_engine/logs/
+
+# Local NexusIQ Run Data
+# (Ignore local database caches, test outputs, audit logs, and cases)
+backend/output/
+backend/pipeline_test_results.json
+backend/case_registry.json
+backend/collab_comments.json
+backend/watchlist_overrides.json
+backend/audit_events.json
+*.log
+
+*.safetensors
+intent_model_ready/
+intent_model_saved/*.safetensors
